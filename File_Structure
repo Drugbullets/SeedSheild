@@ -1,0 +1,23 @@
+seedshield/
+├── contracts/                  # Smart contracts
+│   ├── SeedShield.sol          # Main contract for fragment storage
+│   └── deploy.js               # Deployment script
+│
+├── src/                        # React frontend
+│   ├── components/             # UI components
+│   │   ├── WalletConnector.js  # MetaMask connection
+│   │   ├── SeedInput.js        # Seed phrase form
+│   │   └── FragmentManager.js  # Displays generated fragments
+│   │
+│   ├── App.js                  # Main application logic
+│   ├── App.css                 # Basic styling
+│   ├── index.js                # React entry point
+│   └── utils/
+│       └── encryption.js       # Shamir's secret sharing logic
+│
+├── scripts/                    # Utility scripts
+│   └── test-fragments.js       # Manual recovery testing
+│
+├── hardhat.config.js           # Blockchain network config
+├── package.json                # Project dependencies
+└── README.md                   # Project documentation
